@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+
+<h1>Air ticket reservation</h1>
+<hr />
+
+<body>
+    <form action="submissionmessage.html" method="post">
+        <label for="source">Boarding</label>:
+        <input id="source" type="search" name="source" />
+        <label for="destination">Destination</label>:
+        <input id="destination" type="search" name="destination" />
+        <label for="traveldate">Travel date</label>:
+        <input id="traveldate" type="date" name="traveldate" />
+        <label for="email">User email</label>:
+        <input id="email" type="email" name="email" />
+        <select id="city" name="city">
+            <option value="DEL">Delhi</option>
+            <option value="BLR">Bangalore</option>
+            <option value="PNQ" selected>Pune</option>
+        </select>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
